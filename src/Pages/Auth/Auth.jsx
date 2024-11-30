@@ -63,7 +63,7 @@ function Auth() {
 
   return (
     <section className={classes.login}>
-      <Link to="/">
+      <Link to="/Amazon_Clone_Front-end">
         <img
           src="https://cdn.icon-icons.com/icons2/2699/PNG/512/amazon_logo_icon_169612.png"
           alt="amazon-logo"

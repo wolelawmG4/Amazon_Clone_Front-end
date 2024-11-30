@@ -22,7 +22,7 @@ const Header = () => {
           <div className={classes.header__container}>
             {/* logo section */}
             <div className={classes.logo__container}>
-              <Link to="/">
+              <Link to="/Amazon_Clone_Front-end">
                 <img
                   src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
                   alt="amazon logo"
@@ -49,7 +49,7 @@ const Header = () => {
             {/* right side link */}
 
             <div className={classes.order__container}>
-              <Link to="/" className={classes.language}>
+              <Link to="/Amazon_Clone_Front-end" className={classes.language}>
                 <img
                   src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1024px-Flag_of_the_United_States.svg.png"
                   alt=""

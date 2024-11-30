@@ -23,7 +23,7 @@ function Routing() {
   return (
     <Router>
       <Routes>
-        <Route path="/Amazon_Clone" element={<Landing />} />
+        <Route path="/Amazon_Clone_Front-end" element={<Landing />} />
         <Route path="/auth" element={<Auth />} />
         <Route
           path="/payments"
