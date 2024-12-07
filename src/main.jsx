@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { DataProvider } from "./Components/DataProvider/DataProvider";
 import { initialState, reducer } from "./Utility/reducer";
 import App from "./App.jsx";
-
+console.log("Rendering App...");
 
 createRoot(document.getElementById("root")).render(
   // <BrowserRouter future={{ v7_startTransition: true }}>
