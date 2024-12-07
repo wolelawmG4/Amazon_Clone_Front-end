@@ -6,9 +6,6 @@ import Product from "../../Components/Product/Product";
 function Landing() {
   return (
     <LayOut>
-      <div>
-        <p>this is landding page </p>
-      </div>
       <Carousel />
       <Category />
       <Product />
